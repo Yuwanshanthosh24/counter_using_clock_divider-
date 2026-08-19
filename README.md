@@ -61,6 +61,8 @@ module clock_divider(
     end
 
 endmodule
+
+
 ```
 # 4-bit Up/Down Counter
 ```
@@ -122,6 +124,7 @@ endmodule
 # Testbench
 
 ```
+
 module tb_counter;
 
     reg clk, rst, mode;
